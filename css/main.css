@@ -60,3 +60,29 @@ body,
   font-style: italic;
   font-size: small;
 }
+
+.scene {
+  position: relative;
+  max-width: 40rem;
+  /* margin: 0 auto 0 auto; */
+  margin: 0 auto 0 4rem;
+  padding: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.scene:first-child {
+  margin-top: -30%;
+}
+
+.scene:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.scene p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: black;
+  text-shadow: 0 0 6px white;
+}
